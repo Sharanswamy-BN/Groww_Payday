@@ -77,9 +77,6 @@ export default function PayPage() {
     <div>
       <Stepper current={4} />
       <h1 className="text-[20px] font-semibold text-groww-text">First payment & Autopay</h1>
-      <p className="mt-1 text-[13px] text-groww-muted">
-        Simulated checkout. No money is deducted from any bank.
-      </p>
       <div className="mt-4 rounded-2xl border border-groww-line p-4 text-[14px]">
         <p className="font-semibold text-groww-text">{summary.fundName}</p>
         <p className="mt-2 flex justify-between text-groww-muted">

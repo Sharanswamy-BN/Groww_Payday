@@ -80,7 +80,7 @@ export default function CashflowPage() {
       <Stepper current={2} />
       <h1 className="text-[20px] font-semibold text-groww-text">Your monthly cash flow</h1>
       <p className="text-[13px] text-groww-muted">
-        Amounts can be approximate. Days are 1–28. This stays in the demo only — no bank login.
+        Amounts may be approximate. Select your salary day between 1-28. If it falls on 29, 30, 31 or month-end, select 28.
       </p>
       <div className="grid grid-cols-2 gap-3">
         <Field label="Salary credit day">

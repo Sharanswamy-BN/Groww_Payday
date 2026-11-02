@@ -35,7 +35,7 @@ export default function DonePage() {
       </div>
       <h1 className="mt-5 text-[24px] font-semibold text-groww-text">SIP created successfully</h1>
       <p className="mt-2 text-[14px] text-groww-muted">
-        Setup is complete. Future instalments are scheduled on your payday-aligned date (demo only).
+        Setup is complete. Future instalments are scheduled on your payday-aligned date.
       </p>
       {info ? (
         <div className="mt-6 rounded-2xl border border-groww-line p-4 text-left text-[14px]">
